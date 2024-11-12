@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/bce12326-2c2b-49e1-9cf8-44eb3e53f220)
+
 ### Technologies Used
 - SQLite
 - ASP.NET (gRPC)
@@ -20,6 +22,9 @@ dotnet run --project EPSService
 ```powershell
 dotnet run --project EPSClient
 ```
+
+![image](https://github.com/user-attachments/assets/652f2c47-635e-4939-92ee-aa5e3a5358bf)
+
 
 ## Summary
 The project `EPSService` is rEPSosible for generating discount codes using first 7-8 characters of uuid v4.
