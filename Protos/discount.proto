@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+option csharp_namespace = "ESPService";
+
+package discount;
+
+
+//	 Discount Code Generator
+service DiscountCodeGenerator {
+
+  // Generate discount code
+  rpc GenerateCodes (GenerateCodeRequest) returns (GenerateReply);
+
+  // Use discount code
+  rpc UseCode (UseCodeRequest) returns (UseCodeReply);
+
+  // Get all discount codes generated so far
+  rpc GetAllCodes (GetAllCodesRequest) returns (GetAllCodesReply);
+}
+
+message GetAllCodesRequest {
+
+}
+
+
+message GetAllCodesReply {
+	repeated string codes = 1;
+}
+
+message UseCodeRequest {
+	string code = 1;
+}
+
+message UseCodeReply {
+	int32 result = 1;
+}
+
+message GenerateReply {
+	bool result = 1;
+}
+
+message GenerateCodeRequest {
+	uint32 count = 1;
+	int32 length = 2;
+}

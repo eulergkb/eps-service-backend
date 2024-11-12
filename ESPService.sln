@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ESPService", "EPSService\ESPService.csproj", "{C8918BA3-5B15-4743-9333-375B2D4C4ABB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPSClient", "EPSClient\EPSClient.csproj", "{4538B045-94DF-41B1-B14A-21C1B9323A98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EPSService.Tests", "EPSService.Tests\EPSService.Tests.csproj", "{D712F97C-E03D-4B8B-9C81-1F01BB9D478B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Protos", "Protos", "{A49E5C30-51E6-40E6-A58C-487BCE4DBE1A}"
+	ProjectSection(SolutionItems) = preProject
+		Protos\discount.proto = Protos\discount.proto
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8918BA3-5B15-4743-9333-375B2D4C4ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8918BA3-5B15-4743-9333-375B2D4C4ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8918BA3-5B15-4743-9333-375B2D4C4ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8918BA3-5B15-4743-9333-375B2D4C4ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4538B045-94DF-41B1-B14A-21C1B9323A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4538B045-94DF-41B1-B14A-21C1B9323A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4538B045-94DF-41B1-B14A-21C1B9323A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4538B045-94DF-41B1-B14A-21C1B9323A98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D712F97C-E03D-4B8B-9C81-1F01BB9D478B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D712F97C-E03D-4B8B-9C81-1F01BB9D478B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D712F97C-E03D-4B8B-9C81-1F01BB9D478B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D712F97C-E03D-4B8B-9C81-1F01BB9D478B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFAF1B3C-4BD7-4BB0-9D24-DDB6787E429B}
+	EndGlobalSection
+EndGlobal
