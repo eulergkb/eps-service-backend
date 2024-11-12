@@ -18,7 +18,7 @@ dotnet run --project ESPService
 ```
 - Open a new terminal and run the client
 ```powershell
-dotnet run --project EPSClient
+dotnet run --project ESPClient
 ```
 
 ## Summary
